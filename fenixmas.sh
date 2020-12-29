@@ -37,9 +37,11 @@ for ((i=1; i<=3; i++))
 }
 
 # Write a greeting
-tput setaf 93; tput bold
+new_year=$(date +'%Y')
+let new_year++
+tput setaf 1; tput bold
 tput cup $lin $((c - 15)); echo Fenix wish you a merry christmas
-tput cup $((lin + 1)) $((c - 11)); echo And a happy new year 2021
+tput cup $((lin + 1)) $((c - 5)); echo 
 let c++
 k=1
 
@@ -62,8 +64,19 @@ while true; do
         line[$k$i]=$li
         column[$k$i]=$co
         color=$(((color+1)%8))
+        # Flashing text
+        sh=1
+        for l in $new_year
+
+        do
+            tput cup $((lin+1)) $((c+sh))
+            echo $l
+            let sh++
+            sleep 0.01
+    done
+    
     }
     k=$((k % 2 + 1))
+    tput cup $((lin + 1)) $((c - 9)); echo And  happy
 done
-#I created this script following this guide:
-#www.scaleway.com/en/docs/create-an-animated-christmas-tree-using-the-linux-shell/
+
