@@ -1,8 +1,6 @@
 #!/bin/bash
 #Fenix Merry Christmas
-#ejecute: ./fenixmas.sh  bash fenixmas.sh
-#I created this script following this guide:
-#www.scaleway.com/en/docs/create-an-animated-christmas-tree-using-the-linux-shell/
+#ejecute: "./fenixmas.sh" or "bash fenixmas.sh"
 
 trap "tput reset; tput cnorm; exit" 2
 clear
@@ -67,3 +65,5 @@ while true; do
     }
     k=$((k % 2 + 1))
 done
+#I created this script following this guide:
+#www.scaleway.com/en/docs/create-an-animated-christmas-tree-using-the-linux-shell/
