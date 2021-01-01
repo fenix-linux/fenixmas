@@ -2,6 +2,9 @@
 #Fenix Merry Christmas
 #ejecute: "./fenixmas.sh" or "bash fenixmas.sh"
 
+#Change this to change fenix by your name
+name=fenixlinux.com
+
 trap "tput reset; tput cnorm; exit" 2
 clear
 tput civis
@@ -40,7 +43,7 @@ for ((i=1; i<=3; i++))
 new_year=$(date +'%Y')
 let new_year++
 tput setaf 1; tput bold
-tput cup $lin $((c - 15)); echo Fenix wish you a merry christmas
+tput cup $lin $((c - 15)); echo $name wish you a merry christmas
 tput cup $((lin + 1)) $((c - 5)); echo 
 let c++
 k=1
