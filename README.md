@@ -7,9 +7,9 @@
 <code>curl https://raw.githubusercontent.com/fenixlinuxos/fenixmas/master/fenixmas.sh | bash </code>
 <br><br>
 
-
-<img src="terminalxmas.png" alt="Fenix merry christmas terminal screenshot">
-<img src="fenix-xmas.gif" alt="Fenix merry christmas terminal gif">
+<img src="pictures/fenix-christmas.gif" alt="Fenix merry christmas terminal gif">
+<img src="pictures/terminalxmas.png" alt="Fenix merry christmas terminal screenshot">
+<img src="pictures/fenix-xmas.gif" alt="Fenix merry christmas terminal gif">
 
 
 
