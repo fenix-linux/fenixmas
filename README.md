@@ -8,8 +8,7 @@
 <br><br>
 
 <img src="pictures/fenix-christmastree.gif" alt="Fenix merry christmas terminal gif">
-<img src="pictures/terminalxmas.png" alt="Fenix merry christmas terminal screenshot">
-<img src="pictures/fenix-xmas.gif" alt="Fenix merry christmas terminal gif">
+
 
 
 
