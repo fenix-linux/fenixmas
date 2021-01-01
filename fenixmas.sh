@@ -1,6 +1,7 @@
 #!/bin/bash
 #Fenix Merry Christmas
-#ejecute: "./fenixmas.sh" or "bash fenixmas.sh"
+#Inspiration: shorturl.at/svGNU
+#Ejecute: "./fenixmas.sh" or "bash fenixmas.sh"
 
 #Change this to change fenix by your name
 name=fenixlinux.com
@@ -82,4 +83,5 @@ while true; do
     k=$((k % 2 + 1))
     tput cup $((lin + 1)) $((c - 9)); echo And  happy
 done
+
 
